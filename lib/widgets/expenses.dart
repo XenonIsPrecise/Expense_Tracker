@@ -53,7 +53,7 @@ class _ExpensesState extends State<Expenses> {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         duration: Duration(seconds: 5),
-        content: Text('Expense deleted '),
+        content: Text('Expense deleted succesfully'),
         action: SnackBarAction(
           label: 'Undo',
           onPressed: () {
